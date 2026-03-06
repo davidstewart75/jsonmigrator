@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "name": "Sample JSON v1",
+  "xp": 0,
+  "hp": 0,
+  "inventory": ["stuff"]
+}

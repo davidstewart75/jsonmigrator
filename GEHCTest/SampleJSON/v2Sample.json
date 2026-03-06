@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "player": {
+    "name": "Sample JSON v2",
+    "stats": {
+      "hp": 0,
+      "mp": 0
+    },
+    "inventory": [
+      {
+        "count": 1,
+        "id": "stuff"
+      }
+    ],
+    "xp": 0
+  }
+}

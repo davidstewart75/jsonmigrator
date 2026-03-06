@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "number",
+      "const": 2
+    },
+    "player": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "stats": {
+          "type": "object",
+          "properties": {
+            "hp": {
+              "type": "number",
+              "minimum": 0
+            },
+            "mp": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "hp",
+            "mp"
+          ]
+        },
+        "inventory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "count": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xp": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "name",
+        "stats",
+        "xp",
+        "inventory"
+      ]
+    }
+  },
+  "required": [
+    "version",
+    "player"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "player": {
+    "name": "bob the mighty",
+    "stats": {
+      "hp": 200,
+      "mp": 0
+    },
+    "inventory": [
+      {
+        "id": "sword",
+        "count": 1
+      },
+      {
+        "id": "shield",
+        "count": 1
+      },
+      {
+        "id": "waterskin",
+        "count": 1
+      }
+    ],
+    "xp": 1000000
+  }
+}

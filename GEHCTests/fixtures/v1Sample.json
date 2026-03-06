@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "name": "bob the mighty",
+  "xp": 1000000,
+  "hp": 200,
+  "inventory": [ "sword", "shield", "waterskin" ]
+}

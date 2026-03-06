@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="fixtures">
+      <UniqueIdentifier>{f6318dbc-7487-401e-bd2e-2b8bd392e971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="goldens">
+      <UniqueIdentifier>{3feccc84-7a85-4f86-8239-2cacc6ca61a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JSONValidationTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONMigrationTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fixtures\invalid.json">
+      <Filter>fixtures</Filter>
+    </None>
+    <None Include="fixtures\v1Sample.json">
+      <Filter>fixtures</Filter>
+    </None>
+    <None Include="fixtures\v3Sample.json">
+      <Filter>fixtures</Filter>
+    </None>
+    <None Include="goldens\ConvertedV1toV3Sample.json">
+      <Filter>goldens</Filter>
+    </None>
+    <None Include="goldens\ConvertedV1toV2Sample.json">
+      <Filter>goldens</Filter>
+    </None>
+  </ItemGroup>
+</Project>

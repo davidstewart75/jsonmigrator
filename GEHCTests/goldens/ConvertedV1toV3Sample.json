@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "player": {
+    "name": "bob the mighty",
+    "id": "player:bob the mighty",
+    "stats": {
+      "hp": 200,
+      "mp": 0
+    },
+    "bag": {
+      "sword": 1,
+      "shield": 1,
+      "waterskin": 1
+    },
+    "xp": 1000000
+  }
+}

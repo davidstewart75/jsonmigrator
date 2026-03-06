@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "player": {
+    "name": "Sample JSON v3",
+    "id": "player:Sample JSON v3",
+    "stats": {
+      "hp": 0,
+      "mp": 0
+    },
+    "bag": {
+      "stuff": 1
+    },
+    "xp": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "version": { "type": "number", "const": 1 },
+    "name": { "type": "string" },
+    "xp": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "hp": {
+      "type": "number",
+      "minimum": 0
+    },
+    "inventory": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required": ["version", "name", "xp", "hp", "inventory"]
+  }
+}
